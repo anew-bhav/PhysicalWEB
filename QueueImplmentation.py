@@ -1,13 +1,16 @@
 
 '''Implement a python class Queue which has a 'items' list to store the values that are put into the queue.
- The class has four methods namely put(),pop(),peek() and display.
+ The class has four methods namely put(),pop(),peek() and display().
 
  put(item):
      inserts the 'item' to the Queue
  pop():
      removes the element at the HEAD(start of the queue) of the queue
  peek():
-     prints the element at the HEAD of the queue without removing the element'''
+     prints the element at the HEAD of the queue without removing the element
+ display():
+     prints the entire queue when called
+     '''
 
 '''
  The input format is as follows:
@@ -21,12 +24,14 @@
             usage:
                  1 42
                 this will insert 42 into the queue
-         Command '2' and '3':
+         Command '2','3','4':
             usage:
                 2
             this pops the HEAD element of the queue
                 3
-            this print the HEAD element of the queue without pop
+            this print the HEAD element of the queue without removing it
+                4
+            this prints the entire queue
 
 '''
 
